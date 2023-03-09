@@ -1,0 +1,307 @@
+baseURL = "https://lyonnee.github.io"
+title = "Lyon`s Blog"
+theme = "LoveIt"
+languageCode = "zh-CN"
+hasCJKLanguage = true
+paginate = 12.0
+googleAnalytics = ""
+copyright = ""
+
+enableRobotsTXT = true
+enableGitInfo = true
+enableEmoji = true
+
+[author]
+name = "倪泊尔"
+email = "lyon.nee@outlook.com"
+link = ""
+
+[menu]
+
+  [[menu.main]]
+  weight = 1.0
+  identifier = "posts"
+  pre = ""
+  post = ""
+  name = "文章"
+  url = "/posts/"
+  title = ""
+
+  [[menu.main]]
+  weight = 2.0
+  identifier = "tags"
+  pre = ""
+  post = ""
+  name = "标签"
+  url = "/tags/"
+  title = ""
+
+  [[menu.main]]
+  weight = 3.0
+  identifier = "categories"
+  pre = ""
+  post = ""
+  name = "分类"
+  url = "/categories/"
+  title = ""
+
+[params]
+defaultTheme = "auto"
+gitRepo = "https://github.com/LyonNee/lyonnee.github.io"
+fingerprint = ""
+dateFormat = "2006-01-02"
+title = "倪先森的技术Blog"
+description = "这是我用来记录开发和学习文章的地方"
+images = [
+  "/logo.png"
+]
+
+  [params.header]
+  desktopMode = "auto"
+  mobileMode = "auto"
+
+    [params.header.title]
+    logo = ""
+    name = ""
+    pre = ""
+    post = ""
+    typeit = false
+
+  [params.footer]
+  enable = true
+  custom = ""
+  hugo = true
+  copyright = true
+  author = true
+  since = 2023
+  icp = ""
+  license = "<a rel=\"license external nofollow noopener noreffer\" href=\"https://creativecommons.org/licenses/by-nc/4.0/\" target=\"_blank\">CC BY-NC 4.0</a>"
+
+  [params.section]
+  paginate = 20.0
+  dateFormat = "01-02"
+  rss = 10.0
+
+  [params.list]
+  paginate = 20.0
+  dateFormat = "01-02"
+  rss = 10.0
+
+  [params.app]
+  title = "倪先森的技术Blog"
+  noFavicon = false
+  svgFavicon = ""
+  themeColor = "#ffffff"
+  iconColor = "#5bbad5"
+  tileColor = "#da532c"
+
+  [params.search]
+  enable = true
+  type = "lunr"
+  contentLength = 4000.0
+  placeholder = ""
+  maxResultLength = 10.0
+  snippetLength = 50.0
+  highlightTag = "em"
+  absoluteURL = false
+
+    [params.search.algolia]
+    index = ""
+    appID = ""
+    searchKey = ""
+
+  [params.home]
+  rss = 10.0
+
+    [params.home.profile]
+    enable = true
+    gravatarEmail = ""
+    avatarURL = "/images/avatar.png"
+    title = ""
+    subtitle = "我是一名区块链应用开发工程师，喜欢Go和Rust，区块链技术是信仰！！！"
+    typeit = true
+    social = true
+    disclaimer = ""
+
+    [params.home.posts]
+    enable = true
+    paginate = 6.0
+    defaultHiddenFromHomePage = false
+
+  [params.social]
+  GitHub = "LyonNee"
+  Email = "lyon.nee@outlook.com"
+  RSS = true
+
+  [params.page]
+  hiddenFromHomePage = false
+  hiddenFromSearch = false
+  twemoji = false
+  lightgallery = false
+  ruby = true
+  fraction = true
+  fontawesome = true
+  linkToMarkdown = true
+  rssFullText = false
+
+    [params.page.toc]
+    enable = true
+    keepStatic = true
+    auto = true
+
+    [params.page.code]
+    copy = true
+    maxShownLines = 50.0
+
+    [params.page.math]
+    enable = true
+    inlineLeftDelimiter = ""
+    inlineRightDelimiter = ""
+    blockLeftDelimiter = ""
+    blockRightDelimiter = ""
+    copyTex = true
+    mhchem = true
+
+    [params.page.mapbox]
+    accessToken = ""
+    lightStyle = "mapbox://styles/mapbox/light-v10?optimize=true"
+    darkStyle = "mapbox://styles/mapbox/dark-v10?optimize=true"
+    navigation = true
+    geolocate = true
+    scale = true
+    fullscreen = true
+
+    [params.page.share]
+    enable = true
+    Twitter = true
+    Facebook = true
+    Linkedin = false
+    Whatsapp = false
+    Pinterest = false
+    Tumblr = false
+    HackerNews = true
+    Reddit = false
+    VK = false
+    Buffer = false
+    Xing = false
+    Line = true
+    Instapaper = false
+    Pocket = false
+    Flipboard = false
+    Weibo = true
+    Blogger = false
+    Baidu = false
+    Odnoklassniki = false
+    Evernote = false
+    Skype = false
+    Trello = false
+    Mix = false
+
+    [params.page.comment]
+    enable = false
+
+      [params.page.comment.disqus]
+      enable = false
+      shortname = ""
+
+      [params.page.comment.gitalk]
+      enable = false
+      owner = ""
+      repo = ""
+      clientId = ""
+      clientSecret = ""
+
+      [params.page.comment.valine]
+      enable = false
+      appId = ""
+      appKey = ""
+      placeholder = ""
+      avatar = "mp"
+      meta = ""
+      pageSize = 10.0
+      lang = ""
+      visitor = true
+      recordIP = true
+      highlight = true
+      enableQQ = false
+      serverURLs = ""
+      emoji = ""
+
+      [params.page.comment.facebook]
+      enable = false
+      width = "100%"
+      numPosts = 10.0
+      appId = ""
+      languageCode = "zh_CN"
+
+      [params.page.comment.telegram]
+      enable = false
+      siteID = ""
+      limit = 5.0
+      height = ""
+      color = ""
+      colorful = true
+      dislikes = false
+      outlined = false
+
+      [params.page.comment.commento]
+      enable = false
+
+      [params.page.comment.utterances]
+      enable = false
+      repo = ""
+      issueTerm = "pathname"
+      label = ""
+      lightTheme = "github-light"
+      darkTheme = "github-dark"
+
+      [params.page.comment.giscus]
+      enable = false
+      repo = ""
+      repoId = ""
+      category = "Announcements"
+      categoryId = ""
+      lang = ""
+      mapping = "pathname"
+      reactionsEnabled = "1"
+      emitMetadata = "0"
+      inputPosition = "bottom"
+      lazyLoading = false
+      lightTheme = "light"
+      darkTheme = "dark"
+
+    [params.page.library]
+
+      [params.page.library.css]
+
+      [params.page.library.js]
+
+    [params.page.seo]
+    images = []
+
+      [params.page.seo.publisher]
+      name = ""
+      logoUrl = ""
+
+  [params.typeit]
+  speed = 100.0
+  cursorSpeed = 1000.0
+  cursorChar = "|"
+  duration = -1.0
+
+  [params.verification]
+  google = ""
+  bing = ""
+  yandex = ""
+  pinterest = ""
+  baidu = ""
+
+  [params.seo]
+  image = ""
+  thumbnailUrl = ""
+
+  [params.analytics]
+  enable = false
+
+[outputs]
+home = ["HTML", "RSS", "JSON"]
